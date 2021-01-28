@@ -13,6 +13,8 @@ class Home(Tk):
         Tk.__init__(self)
         self.title("JOBS")
         self.geometry('700x700')
+        icon=PhotoImage(file="C:\\Users\\SRDB\\PycharmProjects\\KabilanPython\\gui\\photos.ico")
+        self.iconphoto(False,icon)
         f=('Arial',15,ITALIC)
         self.head = Label(self, text='Garriage Service Log', font=('Arial', 20, BOLD))
         self.head.grid(row=0, column=50)

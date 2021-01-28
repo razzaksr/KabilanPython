@@ -58,7 +58,13 @@ class Insert(Tk):
         else:
             messagebox.showinfo("ack", "vehicle can't added into logs")
     def clear(self):
-        clean = StringVar("")
+        self.a.delete(0,'end')
+        self.b.delete(0, 'end')
+        self.c.delete(0, 'end')
+        self.d.delete(0, 'end')
+        self.e.delete(0, 'end')
+        self.f.delete(0, 'end')
+        self.g.delete(0, 'end')
 
 
 
